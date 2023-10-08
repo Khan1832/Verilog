@@ -51,5 +51,5 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 
 # Simulation Run Script (run.do)
 
-The run.do script is used to automate the simulation process for the tb_bd testbench. 
-It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
+-The run.do script is used to automate the simulation process for the tb_bd testbench. 
+-It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
