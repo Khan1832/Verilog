@@ -6,6 +6,7 @@ This repository contains a Verilog module for a memory design with read and writ
 - About the Project
 - Usage
 - Testing
+- Simulation
   
 # About the Project
 
@@ -37,15 +38,19 @@ The testbench (`tb`) demonstrates three test scenarios:
 The testbench (`tb_bd`) demonstrates the test scenarios:
 
 1. **Full Memory Write and Read (test_fd_wr_rd):**
+   
         -Writes random data to the entire memory and reads it back.
 
-2. **Binary Data Write and Read (test_bd_wr_rd):**
+3. **Binary Data Write and Read (test_bd_wr_rd):**
+   
         -Loads memory contents from a file (image.hex), writes it to memory, and then saves the memory contents to another file (image_2.bin).
 
-3. **Mixed Data Write and Binary Data Read (fd_wr_bd_rd):**
+4. **Mixed Data Write and Binary Data Read (fd_wr_bd_rd):**
+   
         -Writes random data to the entire memory and then reads memory contents from a file (image.hex).
 
-4. **Binary Data Write and Mixed Data Read (bd_wr_fd_rd):**
+6. **Binary Data Write and Mixed Data Read (bd_wr_fd_rd):**
+   
         -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
 
 
