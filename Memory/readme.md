@@ -14,9 +14,8 @@ The Verilog module `memdes` implements a memory design with a specified width, d
 
 # Usage
 1. Clone the repository:
-
-  git clone https://github.com/<username>/<repository>.git
-  cd <repository>
+     git clone https://github.com/<username>/<repository>.git
+     cd <repository>
 
 3. Open the project in your preferred Verilog development environment.
 
