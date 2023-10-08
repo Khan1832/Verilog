@@ -1,17 +1,17 @@
-Memory Design Module
+#Memory Design Module
 
 This repository contains a Verilog module for a memory design with read and write functionalities. It includes a memory module (`memdes`) and a testbench (`tb`) to verify its functionality.
 
-## Table of Contents
+# Table of Contents
 - [About the Project]
 - [Usage]
 - [Testing]
   
-## About the Project
+# About the Project
 
 The Verilog module `memdes` implements a memory design with a specified width, depth, and address width. It provides functionalities to read and write data into memory locations. The testbench (`tb`) demonstrates various test scenarios to validate the functionality of the memory design.
 
-## Usage
+# Usage
 1.Clone the repository:
   
   git clone https://github.com/<username>/<repository>.git
@@ -21,7 +21,7 @@ The Verilog module `memdes` implements a memory design with a specified width, d
 
 3. Simulate the design using the provided testbench (`tb`) to test different memory read and write scenarios.
 
-## Testing
+# Testing
 
 The testbench (`tb`) demonstrates three test scenarios:
 1. **Full Memory Write and Read**
@@ -49,7 +49,7 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
         -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
 
 
-##Simulation Run Script (run.do)
+#Simulation Run Script (run.do)
 
 The run.do script is used to automate the simulation process for the tb_bd testbench. 
 It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
