@@ -19,7 +19,7 @@ The Verilog module `memdes` implements a memory design with a specified width, d
 
 2. Open the project in your preferred Verilog development environment.
 
-3. Simulate the design using the provided testbench (`tb`) to test different memory read and write scenarios.
+3. Simulate the design using the provided testbench (`tb` or `tb_bd`) to test different memory read and write scenarios.
 
 # Testing
 
@@ -36,16 +36,16 @@ The testbench (`tb`) demonstrates three test scenarios:
 
 The testbench (`tb_bd`) demonstrates the test scenarios:
 
-1. Full Memory Write and Read (test_fd_wr_rd):
+1. **Full Memory Write and Read (test_fd_wr_rd):**
         -Writes random data to the entire memory and reads it back.
 
-2. Binary Data Write and Read (test_bd_wr_rd):
+2. **Binary Data Write and Read (test_bd_wr_rd):**
         -Loads memory contents from a file (image.hex), writes it to memory, and then saves the memory contents to another file (image_2.bin).
 
-3. Mixed Data Write and Binary Data Read (fd_wr_bd_rd):
+3. **Mixed Data Write and Binary Data Read (fd_wr_bd_rd):**
         -Writes random data to the entire memory and then reads memory contents from a file (image.hex).
 
-4. Binary Data Write and Mixed Data Read (bd_wr_fd_rd):
+4. **Binary Data Write and Mixed Data Read (bd_wr_fd_rd):**
         -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
 
 
