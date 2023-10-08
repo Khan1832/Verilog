@@ -13,14 +13,14 @@ This repository contains a Verilog module for a memory design with read and writ
 The Verilog module `memdes` implements a memory design with a specified width, depth, and address width. It provides functionalities to read and write data into memory locations. The testbench (`tb`) demonstrates various test scenarios to validate the functionality of the memory design.
 
 # Usage
-1.Clone the repository:
-  
+1. Clone the repository:
+
   git clone https://github.com/<username>/<repository>.git
   cd <repository>
 
-2. Open the project in your preferred Verilog development environment.
+3. Open the project in your preferred Verilog development environment.
 
-3. Simulate the design using the provided testbench (`tb` or `tb_bd`) to test different memory read and write scenarios.
+4. Simulate the design using the provided testbench (`tb` or `tb_bd`) to test different memory read and write scenarios.
 
 # Testing
 
@@ -39,19 +39,19 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 
 1. **Full Memory Write and Read (test_fd_wr_rd):**
    
-        -Writes random data to the entire memory and reads it back.
+    -Writes random data to the entire memory and reads it back.
 
 3. **Binary Data Write and Read (test_bd_wr_rd):**
    
-        -Loads memory contents from a file (image.hex), writes it to memory, and then saves the memory contents to another file (image_2.bin).
+   -Loads memory contents from a file (image.hex), writes it to memory, and then saves the memory contents to another file (image_2.bin).
 
 4. **Mixed Data Write and Binary Data Read (fd_wr_bd_rd):**
    
-        -Writes random data to the entire memory and then reads memory contents from a file (image.hex).
+   -Writes random data to the entire memory and then reads memory contents from a file (image.hex).
 
 6. **Binary Data Write and Mixed Data Read (bd_wr_fd_rd):**
    
-        -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
+    -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
 
 
 # Simulation Run Script (run.do)
