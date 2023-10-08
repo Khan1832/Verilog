@@ -9,6 +9,7 @@ It includes a memory module (`memdes`) and a testbench (`tb`) to verify its func
 - Usage
 - Testing
 - Simulation
+- Sample Outputs
   
 # About the Project
 
@@ -72,3 +73,12 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 -The run.do script is used to automate the simulation process for the tb_bd testbench.
 
 -It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
+
+# Sample outputs (image.hex and image_2.bin)
+
+Each line in the "image.hex" file corresponds to a memory address, and the values are represented in hexadecimal notation.
+
+The "image.hex" file is a sample memory initialization file
+
+
+
