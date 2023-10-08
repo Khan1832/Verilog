@@ -76,9 +76,12 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 
 # Sample outputs (image.hex and image_2.bin)
 
+The "image.hex" file is a sample memory initialization file.
+
 Each line in the "image.hex" file corresponds to a memory address, and the values are represented in hexadecimal notation.
 
-The "image.hex" file is a sample memory initialization file
+
+
 
 
 
