@@ -47,3 +47,9 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 
 4.Binary Data Write and Mixed Data Read (bd_wr_fd_rd):
         -Loads memory contents from a file (image.hex), writes it to memory, and then reads the memory using the memdes module.
+
+
+##Simulation Run Script (run.do)
+
+The run.do script is used to automate the simulation process for the tb_bd testbench. 
+It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
