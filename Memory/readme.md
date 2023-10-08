@@ -12,7 +12,19 @@ It includes a memory module (`memdes`) and a testbench (`tb`) to verify its func
   
 # About the Project
 
-The Verilog module `memdes` implements a memory design with a specified width, depth, and address width. It provides functionalities to read and write data into memory locations. The testbench (`tb`) demonstrates various test scenarios to validate the functionality of the memory design.
+This project is a Verilog-based simulation and testing environment for a memory design (memdes). 
+
+The testbench (tb) includes functionalities to write and read data from the memory at specified addresses, employing different test cases. 
+
+The memory is parameterized by width, depth, and address width. 
+
+The project encompasses modules for writing and reading operations, employing a simulated clock and reset logic.
+
+The simulation generates a log file ("data.log") with timing information, addresses, and data during memory transactions. 
+
+Test cases cover full memory access, accessing half of the memory, and accessing quarters of the memory, aiming to validate the memory module's functionality and performance. 
+
+ModelSim is used for simulation, and a provided script automates compilation, simulation, and waveform generation for ease of testing.
 
 # Usage
 1. Clone the repository:
