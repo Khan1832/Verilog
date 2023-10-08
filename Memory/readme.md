@@ -1,6 +1,7 @@
 # Memory Design Module
 
-This repository contains a Verilog module for a memory design with read and write functionalities. It includes a memory module (`memdes`) and a testbench (`tb`) to verify its functionality.
+This repository contains a Verilog module for a memory design with read and write functionalities. 
+It includes a memory module (`memdes`) and a testbench (`tb`) to verify its functionality.
 
 # Table of Contents
 - About the Project
