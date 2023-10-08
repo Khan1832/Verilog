@@ -34,7 +34,7 @@ ModelSim is used for simulation, and a provided script automates compilation, si
 
 3. Open the project in your preferred Verilog development environment.
 
-4. Simulate the design using the provided testbench (`tb` or `tb_bd`) to test different memory read and write scenarios.
+4. Simulate the design using the provided testbench (`tb` and `tb_bd`) to test different memory read and write scenarios.
 
 # Testing
 
@@ -74,7 +74,7 @@ The testbench (`tb_bd`) demonstrates the test scenarios:
 
 -It compiles the Verilog files, initiates the simulation, sets up waveform visualization, runs the simulation, and saves simulation waveforms.
 
-# Sample outputs (image.hex and image_2.bin)
+# Sample outputs (image.hex)
 
 The "image.hex" file is a sample memory initialization file.
 
