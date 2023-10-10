@@ -25,7 +25,7 @@ The project aims to detect the specific pattern "CCBBCB" in a sequence of input 
 
 ## State Diagram
 
-- **`state_diagram.png`**: A diagram illustrating the states and transitions in the Moore FSM used for pattern detection.
+- **`State Diagram.jpg`**: A diagram illustrating the states and transitions in the Moore FSM used for pattern detection.
 
 -   The states correspond to different parts of the pattern "CCBBCB," and transitions are based on the input sequence.
 
