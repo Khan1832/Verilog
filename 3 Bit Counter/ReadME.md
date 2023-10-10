@@ -22,23 +22,19 @@ A Verilog design for a T flip-flop.
 
 ## Testbenches
 
-### 1. Up/Down Counter Testbench (`tb_updowncounter.v`)
+### 1. Up/Down Counter Testbench (`tb.v`)
 
 Testbench for the up/down counter, including clock, mode switching, and counting verification.
 
-### 2. Up/Down Counter Testbench with Separate Up and Down Tests (`tb_updown_counter_updown.v`)
+### 2. Up/Down Counter Testbench with Separate Up and Down Tests (`top.v`)
 
 Testbench for the up/down counter with separate test cases for counting up and counting down.
 
-### 3. T Flip-Flop Testbench (`tb_tff.v`)
-
-Testbench for the T flip-flop.
 
 ## Block Diagram
 
-A block diagram illustrating the structure of the up/down counter design is provided in a JPEG image file.
+A block diagram illustrating the structure of the up and down counter design is provided in a JPEG image file.
 
-- `up_down_counter_block_diagram.jpg`: Block diagram illustrating the structure of the up/down counter design.
 
 ## How to Use
 
@@ -46,12 +42,4 @@ A block diagram illustrating the structure of the up/down counter design is prov
 2. Navigate to the repository: `cd updown-counter`
 3. Open the design files and testbenches using a suitable Verilog development environment (e.g., Xilinx Vivado, Quartus Prime).
 4. Simulate the designs using the respective testbench files to verify functionality.
-
-## Contributors
-
-- Your Name (YourEmail@example.com)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
