@@ -4,11 +4,11 @@ This repository contains Verilog designs for up, down, and up/down counters, alo
 
 ## Design Files
 
-### 1. Up Counter (`upcounter.v`)
+### 1. Up Counter (`bit3count.v`)
 
 A simple 3-bit up counter implemented in Verilog.
 
-### 2. Down Counter (`downcounter.v`)
+### 2. Down Counter (`bit3countdown.v`)
 
 A simple 3-bit down counter implemented in Verilog.
 
